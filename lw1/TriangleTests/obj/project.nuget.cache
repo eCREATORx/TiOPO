@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1ng0PliE/Crpk3UXf9J+S28+pOo62riGrIOPBEk0s+tVC0oVJIQ429lsaLCEir5h95iIC8YcCt8j0IWeMOGHw==",
+  "dgSpecHash": "ZdXP0RXtBRJyJZemkBhTfi/GVdHrM3Rza6aAS2qUzG6d+YXu5xd101jn1jAXE4YUHSbpkFHEdkLaSzgI0hhHeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дарья\\Documents\\lvl 3-1\\ТиОПО\\lw1\\TriangleTests\\TriangleTests.csproj",
+  "projectFilePath": "C:\\Users\\Дарья\\Documents\\lvl 3-1\\TiOPO\\lw1\\TriangleTests\\TriangleTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дарья\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -72,10 +72,7 @@
     "C:\\Users\\Дарья\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\Дарья\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Дарья\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Дарья\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

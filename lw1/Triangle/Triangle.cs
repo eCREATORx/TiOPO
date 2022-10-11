@@ -23,7 +23,7 @@ namespace Triangle
                 }
                 if ((a + b > c) && (a + c > b) && (c + b > a) && (a + b + c > 0))
                 {
-                    if ((a == b) && (a == c) && (b == c))
+                    if ((a == b) && (a == c))
                     {
                         result = "равносторонний";
                     }

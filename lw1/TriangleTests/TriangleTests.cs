@@ -14,7 +14,6 @@ namespace Triangle_test
             FileStream fileOut = new FileStream("../../../output.txt", FileMode.Create);
             StreamReader reader = new StreamReader(fileIn);
             StreamWriter writer = new StreamWriter(fileOut);
-            int i = 1;
             while (!reader.EndOfStream)
             {
                 string str = reader.ReadLine();
@@ -23,13 +22,12 @@ namespace Triangle_test
                 str = reader.ReadLine();
                 if (str == triangle.result)
                 {
-                    writer.WriteLine("{0} success", i);
+                    writer.WriteLine("success");
                 }
                 else
                 {
-                    writer.WriteLine("{0} error", i);
+                    writer.WriteLine("error");
                 }
-                i++;
             }
             reader.Close();
             writer.Close();

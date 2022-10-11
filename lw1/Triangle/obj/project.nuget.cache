@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "acEo2NgLLgQqwXDrJNLv8LHAmZswrqL9SRcCH+1PptO5beYDg8Q2p3lfZf6AaXf7i9QdyYLv0LWwyvtNM/PIVw==",
+  "dgSpecHash": "VDgL3NowQI0d+1THPmXUjcPdX6uI2CO4V+Le8o4nHFfrCH2Krue65e0YHujjLJuVgPP130XuUIzlwkS1QzAorg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Дарья\\Documents\\lvl 3-1\\ТиОПО\\lw1\\Triangle\\Triangle.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Дарья\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Дарья\\Documents\\lvl 3-1\\TiOPO\\lw1\\Triangle\\Triangle.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

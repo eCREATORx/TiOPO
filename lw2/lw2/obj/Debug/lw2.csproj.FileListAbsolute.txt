@@ -32,3 +32,15 @@ C:\Users\Дарья\Documents\lvl 3-1\ТиОПО\lw2\lw2\obj\Debug\lw2.csproj.Co
 C:\Users\Дарья\Documents\lvl 3-1\ТиОПО\lw2\lw2\obj\Debug\lw2.csproj.CopyComplete
 C:\Users\Дарья\Documents\lvl 3-1\ТиОПО\lw2\lw2\obj\Debug\lw2.exe
 C:\Users\Дарья\Documents\lvl 3-1\ТиОПО\lw2\lw2\obj\Debug\lw2.pdb
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\lw2.exe.config
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\lw2.exe
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\lw2.pdb
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.csproj.AssemblyReference.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.csproj.CoreCompileInputs.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.csproj.CopyComplete
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.exe
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw2\lw2\obj\Debug\lw2.pdb
