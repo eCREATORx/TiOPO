@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.666666666666667" branch-rate="0.263157894736842" lines-covered="142" lines-valid="213" branches-covered="10" branches-valid="38" complexity="47" version="0" timestamp="1670258713">
+<coverage line-rate="0.666666666666667" branch-rate="0.263157894736842" lines-covered="142" lines-valid="213" branches-covered="10" branches-valid="38" complexity="47" version="0" timestamp="1670259037">
   <sources />
   <packages>
     <package name="3lw" line-rate="0.317307692307692" branch-rate="0.263157894736842" complexity="29">
@@ -265,7 +265,7 @@
     </package>
     <package name="lw3_tests" line-rate="1" branch-rate="1" complexity="18">
       <classes>
-        <class name="lw3_tests.UnitTest1" filename="E:\Documents\lvl 3 part 1\ТиОПО\lw3\lw3_tests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="18">
+        <class name="lw3_tests.UnitTest1" filename="C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\lw3_tests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="18">
           <methods>
             <method name="CreateNewTv_WithDefaultTurnedStatus_TurnStatusIsFalse" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -392,7 +392,7 @@
                 <line number="118" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="TSelectPreviousChannel_WithOffTv_ChannelIsZero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="SelectPreviousChannel_WithOffTv_ChannelIsZero" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="122" hits="1" branch="false" />
                 <line number="123" hits="1" branch="false" />

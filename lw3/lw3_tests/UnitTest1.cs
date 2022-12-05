@@ -118,7 +118,7 @@ namespace lw3_tests
         }
 
         [TestMethod]
-        public void TSelectPreviousChannel_WithOffTv_ChannelIsZero()
+        public void SelectPreviousChannel_WithOffTv_ChannelIsZero()
         {
             CTVSet tv = new CTVSet();
             tv.SelectPreviousChannel();

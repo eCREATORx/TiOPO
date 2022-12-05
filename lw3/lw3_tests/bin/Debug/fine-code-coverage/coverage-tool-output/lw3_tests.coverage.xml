@@ -2,13 +2,13 @@
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
   <Summary numSequencePoints="215" visitedSequencePoints="142" numBranchPoints="65" visitedBranchPoints="35" sequenceCoverage="66.05" branchCoverage="53.85" maxCyclomaticComplexity="12" minCyclomaticComplexity="1" maxCrapScore="156" minCrapScore="1" visitedClasses="2" numClasses="3" visitedMethods="25" numMethods="27" />
   <Modules>
-    <Module hash="FD-2A-5E-58-5C-B8-53-8E-B3-CC-C3-C5-E7-85-94-05-1D-64-86-30">
+    <Module hash="65-BB-43-4F-CD-55-CB-17-F5-9B-8A-AB-F4-D9-2A-C2-EB-3B-7E-58">
       <Summary numSequencePoints="109" visitedSequencePoints="109" numBranchPoints="18" visitedBranchPoints="18" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="18" numMethods="18" />
-      <ModulePath>E:\Documents\lvl 3 part 1\ТиОПО\lw3\lw3_tests\bin\Debug\fine-code-coverage\build-output\lw3_tests.dll</ModulePath>
-      <ModuleTime>2022-12-05T13:35:00Z</ModuleTime>
+      <ModulePath>C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\lw3_tests\bin\Debug\fine-code-coverage\build-output\lw3_tests.dll</ModulePath>
+      <ModuleTime>2022-12-05T13:50:29.488667Z</ModuleTime>
       <ModuleName>lw3_tests</ModuleName>
       <Files>
-        <File uid="1" fullPath="E:\Documents\lvl 3 part 1\ТиОПО\lw3\lw3_tests\UnitTest1.cs" />
+        <File uid="1" fullPath="C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\lw3_tests\UnitTest1.cs" />
       </Files>
       <Classes>
         <Class>
@@ -221,7 +221,7 @@
             <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken>100663310</MetadataToken>
-              <Name>System.Void lw3_tests.UnitTest1::TSelectPreviousChannel_WithOffTv_ChannelIsZero()</Name>
+              <Name>System.Void lw3_tests.UnitTest1::SelectPreviousChannel_WithOffTv_ChannelIsZero()</Name>
               <FileRef uid="1" />
               <SequencePoints>
                 <SequencePoint vc="1" uspid="74" ordinal="0" offset="0" sl="122" sc="9" el="122" ec="10" bec="0" bev="0" fileid="1" />
@@ -318,7 +318,7 @@
     </Module>
     <Module hash="28-9D-06-AA-C2-4C-51-2C-CC-28-3A-50-D2-ED-11-FF-A3-86-84-E1">
       <Summary numSequencePoints="106" visitedSequencePoints="33" numBranchPoints="47" visitedBranchPoints="17" sequenceCoverage="31.13" branchCoverage="36.17" maxCyclomaticComplexity="12" minCyclomaticComplexity="1" maxCrapScore="156" minCrapScore="1" visitedClasses="1" numClasses="2" visitedMethods="7" numMethods="9" />
-      <ModulePath>E:\Documents\lvl 3 part 1\ТиОПО\lw3\lw3_tests\bin\Debug\fine-code-coverage\build-output\3lw.exe</ModulePath>
+      <ModulePath>C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\lw3_tests\bin\Debug\fine-code-coverage\build-output\3lw.exe</ModulePath>
       <ModuleTime>2022-12-05T13:35:00Z</ModuleTime>
       <ModuleName>3lw</ModuleName>
       <Files>
