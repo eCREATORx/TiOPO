@@ -20,3 +20,11 @@ E:\Documents\lvl 3 part 1\ТиОПО\lw3\3lw\obj\Debug\lw3.csproj.SuggestedBindi
 E:\Documents\lvl 3 part 1\ТиОПО\lw3\3lw\obj\Debug\lw3.csproj.CoreCompileInputs.cache
 E:\Documents\lvl 3 part 1\ТиОПО\lw3\3lw\obj\Debug\3lw.exe
 E:\Documents\lvl 3 part 1\ТиОПО\lw3\3lw\obj\Debug\3lw.pdb
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\bin\Debug\3lw.exe.config
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\bin\Debug\3lw.exe
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\bin\Debug\3lw.pdb
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\obj\Debug\lw3.csproj.AssemblyReference.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\obj\Debug\lw3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\obj\Debug\lw3.csproj.CoreCompileInputs.cache
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\obj\Debug\3lw.exe
+C:\Users\Дарья\Documents\lvl 3-1\TiOPO\lw3\3lw\obj\Debug\3lw.pdb

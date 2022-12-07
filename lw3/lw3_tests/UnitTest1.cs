@@ -7,165 +7,156 @@ namespace lw3_tests
     public class UnitTest1
     {
         [TestMethod]
-        public void CreateNewTv_WithDefaultTurnedStatus_TurnStatusIsFalse()
+        public void CreateNewTv_WithTurnedOn_TurnStatusIsTrueChannelIsOne()
         {
             CTVSet tv = new CTVSet();
-            Assert.IsFalse(tv.GetTurnStatus());
-        }
 
-        [TestMethod]
-        public void CreateNewTv_WithDefaultChannel_ChannelIsZero()
-        {
-            CTVSet tv = new CTVSet();
-            Assert.AreEqual(tv.GetChannel(), 0);
-        }
-
-        [TestMethod]
-        public void CreateNewTv_WithTurnedOn_TurnStatusIsTrue()
-        {
-            CTVSet tv = new CTVSet();
             tv.TurnOn();
+
             Assert.IsTrue(tv.GetTurnStatus());
-        }        
-        
-        [TestMethod]
-        public void CreateNewTv_WithTurnedOn_ChannelIsOne()
-        {
-            CTVSet tv = new CTVSet();
-            tv.TurnOn();
-            Assert.AreEqual(tv.GetChannel(), 1);
+            Assert.AreEqual(1, tv.GetChannel());
         }
 
         [TestMethod]
-        public void CreateNewTv_WithTurnedOnAndTurnedOff_TurnStatusIsFalse()
+        public void CreateNewTv_WithTurnedOnAndTurnedOff_TurnStatusIsFalseChannelIsZero()
         {
             CTVSet tv = new CTVSet();
+
             tv.TurnOn();
             tv.TurnOff();
+
             Assert.IsFalse(tv.GetTurnStatus());
+            Assert.AreEqual(0, tv.GetChannel());
         }
 
-        [TestMethod]
-        public void CreateNewTv_WithTurnedOnAndTurnedOff_ChannelIsZero()
-        {
-            CTVSet tv = new CTVSet();
-            tv.TurnOn();
-            tv.TurnOff();
-            Assert.AreEqual(tv.GetChannel(), 0);
-        }
         [TestMethod]
         public void SelectChannel_WithOffTv_ChannelIsZero()
         {
             CTVSet tv = new CTVSet();
-            tv.SelectChannel(3);
-            Assert.AreEqual(tv.GetChannel(), 0);
+            int channel = 3;
+
+            tv.SelectChannel(channel);
+
+            Assert.AreEqual(0, tv.GetChannel());
         }
 
         [TestMethod]
-        public void SelectChannel_OutOfRangeZero_ChannelIsOne()
+        public void SelectChannel_OutOfRange_ChannelIsOne()
         {
             CTVSet tv = new CTVSet();
-            tv.TurnOn();
-            tv.SelectChannel(0);
-            Assert.AreEqual(tv.GetChannel(), 1);
-        }
+            int channelOutOfRange = 0;
 
-        [TestMethod]
-        public void SelectChannel_OutOfRangeHundred_ChannelIsOne()
-        {
-            CTVSet tv = new CTVSet();
             tv.TurnOn();
-            tv.SelectChannel(100);
-            Assert.AreEqual(tv.GetChannel(), 1);
+            tv.SelectChannel(channelOutOfRange);
+
+            Assert.AreEqual(1, tv.GetChannel());
         }
 
         [TestMethod]
         public void SelectChannel_InRange_ChannelIsSelectedValue()
         {
             CTVSet tv = new CTVSet();
+            int channelInRange = 50;
+            int expectedChannel = 50;
+
             tv.TurnOn();
-            tv.SelectChannel(50);
-            Assert.AreEqual(tv.GetChannel(), 50);
+            tv.SelectChannel(channelInRange);
+
+            Assert.AreEqual(expectedChannel, tv.GetChannel());
         }
 
         [TestMethod]
-        public void SelectChannel_BorderValueOne_ChannelIsOne()
+        public void SelectChannel_BorderValue_ChannelIsBorderValue()
         {
             CTVSet tv = new CTVSet();
-            tv.TurnOn();
-            tv.SelectChannel(1);
-            Assert.AreEqual(tv.GetChannel(), 1);
-        }
+            int channelBorderValue = 1;
+            int expectedChannel = 1;
 
-        [TestMethod]
-        public void SelectChannel_BorderValueNinetyNine_ChannelIsNinetyNine()
-        {
-            CTVSet tv = new CTVSet();
             tv.TurnOn();
-            tv.SelectChannel(99);
-            Assert.AreEqual(tv.GetChannel(), 99);
+            tv.SelectChannel(channelBorderValue);
+
+            Assert.AreEqual(expectedChannel, tv.GetChannel());
         }
 
         [TestMethod]
         public void SelectChannel_SaveSelectedChannelAfterOnAgain_ChannelIsSelectedChannelBeforeOff()
         {
             CTVSet tv = new CTVSet();
+            int channel = 4;
+            int expectedChannel = 4;
+
             tv.TurnOn();
-            tv.SelectChannel(4);
+            tv.SelectChannel(channel);
             tv.TurnOff();
             tv.TurnOn();
-            Assert.AreEqual(tv.GetChannel(), 4);
+
+            Assert.AreEqual(expectedChannel, tv.GetChannel());
         }
 
         [TestMethod]
         public void SelectPreviousChannel_WithOffTv_ChannelIsZero()
         {
             CTVSet tv = new CTVSet();
+
             tv.SelectPreviousChannel();
-            Assert.AreEqual(tv.GetChannel(), 0);
+
+            Assert.AreEqual(0, tv.GetChannel());
         }
 
         [TestMethod]
         public void SelectPreviousChannel_WithoutSelectedChannel_ChannelIsOne()
         {
             CTVSet tv = new CTVSet();
+
             tv.TurnOn();
             tv.SelectPreviousChannel();
-            Assert.AreEqual(tv.GetChannel(), 1);
+
+            Assert.AreEqual(1, tv.GetChannel());
         }
 
         [TestMethod]
         public void SelectPreviousChannel_WithSelectedChannelOnce_ChannelIsOne()
         {
             CTVSet tv = new CTVSet();
+            int channel = 4;
+
             tv.TurnOn();
-            tv.SelectChannel(4);
+            tv.SelectChannel(channel);
             tv.SelectPreviousChannel();
-            Assert.AreEqual(tv.GetChannel(), 1);
+
+            Assert.AreEqual(1, tv.GetChannel());
         }
         
         [TestMethod]
-        public void SelectPreviousChannel_WithSeveralSelectedChannel_ChannelIsSelectedChannel()
+        public void SelectPreviousChannel_WithSeveralSelectedChannels_ChannelIsPrevious()
         {
             CTVSet tv = new CTVSet();
+            int channel1 = 4;
+            int channel2 = 60;
+
             tv.TurnOn();
-            tv.SelectChannel(4);
-            tv.SelectChannel(60);
+            tv.SelectChannel(channel1);
+            tv.SelectChannel(channel2);
             tv.SelectPreviousChannel();
-            Assert.AreEqual(tv.GetChannel(), 4);
+
+            Assert.AreEqual(channel1, tv.GetChannel());
         }
 
         [TestMethod]
-        public void SelectPreviousChannel_SaveSelectedPreviousChannelAfterOnAgain_ChannelIsSelectedPreviousChannelBeforeOff()
+        public void SelectPreviousChannel_SavePreviousChannelAfterOnAgain_ChannelIsPreviousBeforeOff()
         {
             CTVSet tv = new CTVSet();
+            int channel1 = 4;
+            int channel2 = 60;
+
             tv.TurnOn();
-            tv.SelectChannel(4);
-            tv.SelectChannel(7);
+            tv.SelectChannel(channel1);
+            tv.SelectChannel(channel2);
             tv.TurnOff();
             tv.TurnOn();
             tv.SelectPreviousChannel();
-            Assert.AreEqual(tv.GetChannel(), 4);
+
+            Assert.AreEqual(channel1, tv.GetChannel());
         }
     }
 }
