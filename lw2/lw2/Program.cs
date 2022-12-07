@@ -59,7 +59,8 @@ namespace lw2
         {
             StreamWriter validFile = new StreamWriter("../../valid.txt");
             StreamWriter invalidFile = new StreamWriter("../../invalid.txt");
-            string url = "http://links.qatl.ru/";
+            /*string url = "http://links.qatl.ru/";*/
+            string url = "http://www.edu.ru/";
             /*string url = "http://11licey.ru/";*/
 
             List<string> validLinks = new List<string>();
